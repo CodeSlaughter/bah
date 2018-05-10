@@ -33,6 +33,11 @@ app.get('/donate', (req, res) => {
     res.render('donate')
 })
 
+app.get('/services', (req, res) => {
+    //res.send('about us')
+    res.render('services')
+})
+
 app.get('*', (req, res) => {
     res.render('pageNotFound');
 });
