@@ -1,0 +1,16 @@
+{
+  "name": "bah2",
+  "version": "1.0.0",
+  "description": "Site for Non Profit Bear-A-Hand",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jamie Slaughter",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
